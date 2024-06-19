@@ -24,7 +24,7 @@ ynh_systemd_action --service_name=$app --action=stop --log_path=systemd
 ynh_script_progression --message="Upgrading source files..." --weight=5
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir=$install_dir --keep="config.yml"
+ynh_setup_source --dest_dir=$install_dir --keep="config.json"
 
 pushd "$install_dir"
 	gzip --decompress main --to-stdout > main_dezipped
@@ -52,7 +52,7 @@ yunohost service add $app --description="Self-hosted remote torrent client" --ne
 #=================================================
 # ynh_script_progression --message="Modifying a config file..." --weight=1
 
-# ynh_add_config --template="config.default.yml" --destination="$install_dir/config.yml"
+# ynh_add_config --template="config.json" --destination="$install_dir/config.json"
 
 #=================================================
 # START SYSTEMD SERVICE
