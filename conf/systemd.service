@@ -8,7 +8,7 @@ User=__APP__
 Group=__APP__
 Environment=PORT=__PORT__
 WorkingDirectory=__INSTALL_DIR__
-ExecStart=__INSTALL_DIR__/__APP__ --config-path __INSTALL_DIR__/config.yml --port __PORT__ --host 127.0.0.1 --title "Cloud Torrent" --log --auth "user:password"
+ExecStart=__INSTALL_DIR__/__APP__ --config-path __INSTALL_DIR__/config.json --port __PORT__ --host 127.0.0.1
 Restart=always
 RestartSec=3
 
