@@ -29,10 +29,10 @@ DisableUTP: false
 NoDefaultPortForwarding: true
 # Don't broadcast the UPNP request for gateway port forwarding, which is unnecessary in machines that has public IP (of which this program is mean for?)
 
-DownloadDirectory: /home/yunohost.app/__APP__/downloads
+DownloadDirectory: __DATA_DIR__/downloads
 # DisableEncryption A switch disables [BitTorrent protocol encryption](https://en.wikipedia.org/wiki/BitTorrent_protocol_encryption)
 
-WatchDirectory: /home/yunohost.app/__APP__/torrents
+WatchDirectory: __DATA_DIR__/torrents
 # DownloadDirectory The directory where downloaded file saves.
 
 EnableUpload: true
