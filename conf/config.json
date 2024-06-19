@@ -1,0 +1,14 @@
+{
+
+   "NAME":"Torrent Cloud",
+   "AUTH_USER":"__ADMIN__",
+   "AUTH_PASSWORD":"__PASSWORD__",
+   "SEARCH_PROVIDERS_URL":null,
+   "AWS_BUCKET":null,
+   "AWS_REGION":null,
+   "AWS_ACCESS_KEY":null,
+   "AWS_SECRET_KEY":null,
+   "MEGA_EMAIL":null,
+   "MEGA_PASS":null
+
+}
