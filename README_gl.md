@@ -3,15 +3,15 @@ NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/a
 NON debe editarse manualmente.
 -->
 
-# Simple Torrent para YunoHost
+# Cloud Torrent para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/simple-torrent.svg)](https://dash.yunohost.org/appci/app/simple-torrent) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/simple-torrent.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/simple-torrent.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/cloud-torrent.svg)](https://dash.yunohost.org/appci/app/cloud-torrent) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/cloud-torrent.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/cloud-torrent.maintain.svg)
 
-[![Instalar Simple Torrent con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=simple-torrent)
+[![Instalar Cloud Torrent con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloud-torrent)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
-> *Este paquete permíteche instalar Simple Torrent de xeito rápido e doado nun servidor YunoHost.*  
+> *Este paquete permíteche instalar Cloud Torrent de xeito rápido e doado nun servidor YunoHost.*  
 > *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
 
 ## Vista xeral
@@ -31,33 +31,29 @@ SimpleTorrent is a a self-hosted remote torrent client, written in Go (golang). 
 - Magnet RSS subscribing supported
 
 
-**Versión proporcionada:** 1.3.9~ynh8
+**Versión proporcionada:** 0.9.1~ynh1
 
 ## Capturas de pantalla
 
-![Captura de pantalla de Simple Torrent](./doc/screenshots/screenshot.png)
-
-## :red_circle: Debes considerar
-
-- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
+![Captura de pantalla de Cloud Torrent](./doc/screenshots/screenshot.png)
 
 ## Documentación e recursos
 
-- Documentación oficial para admin: <https://github.com/boypt/simple-torrent/wiki>
-- Repositorio de orixe do código: <https://github.com/boypt/simple-torrent>
-- Tenda YunoHost: <https://apps.yunohost.org/app/simple-torrent>
-- Informar dun problema: <https://github.com/YunoHost-Apps/simple-torrent_ynh/issues>
+- Documentación oficial para admin: <https://github.com/jpillora/cloud-torrent/wiki/>
+- Repositorio de orixe do código: <https://github.com/jpillora/cloud-torrent>
+- Tenda YunoHost: <https://apps.yunohost.org/app/cloud-torrent>
+- Informar dun problema: <https://github.com/YunoHost-Apps/cloud-torrent_ynh/issues>
 
 ## Info de desenvolvemento
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/simple-torrent_ynh/tree/testing).
+Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/cloud-torrent_ynh/tree/testing).
 
 Para probar a rama `testing`, procede deste xeito:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/simple-torrent_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/cloud-torrent_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade simple-torrent -u https://github.com/YunoHost-Apps/simple-torrent_ynh/tree/testing --debug
+sudo yunohost app upgrade cloud-torrent -u https://github.com/YunoHost-Apps/cloud-torrent_ynh/tree/testing --debug
 ```
 
 **Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>
