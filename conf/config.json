@@ -1,8 +1,10 @@
 {
    "NAME": "Torrent Cloud",
+   "HOST": "127.0.0.1",
+   "PORT": "__PORT__",
    "AUTH_USER":"__ADMIN__",
    "AUTH_PASSWORD":"__PASSWORD__",
-   "SEARCH_PROVIDERS_URL":"https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt",
+   "SEARCH_PROVIDERS_URL":"",
    "AWS_BUCKET": null,
    "AWS_REGION": null,
    "AWS_ACCESS_KEY": null,
